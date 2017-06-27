@@ -44,7 +44,7 @@ private void timer1_Tick(object sender, EventArgs e)
 
             if (richTextBox1.Text != checker.Text)
             {
-                MessageBox.Show("somthing changed");
+                MessageBox.Show("something changed"); // displaying message box
                 richTextBox1.Text = checker.Text;
             }
             else
