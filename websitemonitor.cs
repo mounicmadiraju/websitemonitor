@@ -29,7 +29,7 @@ private void timer1_Tick(object sender, EventArgs e)
     {
 
         HttpWebRequest request = (HttpWebRequest)WebRequest.Create("http://www.google.com");
-        HttpWebResponse response = (HttpWebResponse)request.GetResponse();
+        HttpWebResponse response = (HttpWebResponse)request.GetResponse();  // capturing response
         StreamReader source2 = new StreamReader(response.GetResponseStream());
         RichTextBox checker = new RichTextBox();
         checker.Text = source2.ReadToEnd();
