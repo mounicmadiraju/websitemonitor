@@ -30,7 +30,6 @@ using System.Runtime.CompilerServices;
 // In order to sign your assembly you must specify a key to use. Refer to the 
 // Microsoft .NET Framework documentation for more information on assembly signing.
 //
-// Use the attributes below to control which key is used for signing. 
 //
 // Notes: 
 //   (*) If no key is specified, the assembly is not signed.
