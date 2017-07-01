@@ -31,7 +31,6 @@ using System.Runtime.CompilerServices;
 //
 //
 // Notes: 
-//   (*) If no key is specified, the assembly is not signed.
 //   (*) KeyName refers to a key that has been installed in the Crypto Service
 //       Provider (CSP) on your machine. KeyFile refers to a file which contains
 //       a key.
